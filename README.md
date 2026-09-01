@@ -1,38 +1,304 @@
-# MBYOK-BETA-Q-and-K-Releases
+# MBYOK Assistant — Releases
 
-MBYOK Assistant 🚀 — Beta-Q1-K33.0 ⚡
-Welcome to MBYOK. If you are tired of bloated AI apps that lock your chats behind sketchy cloud servers ☁️, force you into subscriptions 💸, or harvest your data 🕵️‍♂️, you are in the right place. MBYOK stands for Bring Your Own Keys 🔑. It is a lightweight, privacy-first 🛡️, Pixel-inspired Material 3 🎨 AI assistant designed to give you total, uncompromised control over your workflow. No middleman, no tracking databases, and zero corporate fluff—just your API keys, your browser 🌐, and your rules.
+![MBYOK Assistant](https://img.shields.io/badge/MBYOK-Assistant-blue)
+![Build](https://img.shields.io/badge/Build-K35.0-orange)
 
-What Is Working Right Now 🔥
-The current build is fully functional out of the box with the core architecture dialed in:
+**MBYOK Assistant 🚀 — Your AI. Your keys. Your browser.**
 
-Pure Client-Side Privacy 🔒: Your keys and chats never touch an external server. Everything is stored strictly inside your browser environment locally.
+MBYOK stands for **Bring Your Own Keys**.
 
-Dynamic Material You Engine 🎨: Built with a full light and dark mode implementation that adapts its entire tonal palette dynamically on the fly.
+MBYOK Assistant is a lightweight, privacy-focused, Pixel-inspired Material 3 AI assistant designed to give you control over your own AI providers and API keys.
 
-Responsive Multi-Device Layout 📱💻: Whether you are running it on a desktop setup with a side navigation rail or pulling it up on mobile with a clean bottom bar, the UI scales cleanly.
+MBYOK is distributed as **standalone HTML applications**. There is no traditional website or `index.html` required.
 
-The Full Development Roadmap 🗺️
-We are just getting started. Here is the actual, unfiltered game plan for what is cooking in the lab 🧪 and rolling out down the line:
+---
 
-The Heavy Hitters 🥊
-Claude AI Support 🤖 (Target: January 23, 2027 📅): Anthropic integration is on the way. You are going to get native API key support, direct model selection, and deep provider-aware controls 🎛️ so you can actually configure how Claude runs instead of dealing with a generic text box.
+# ⬇️ Downloads
 
-Standalone Desktop App 💻 (Target: Late 2026–2027 ⏳): Running everything out of a browser tab is fine for now, but we are actively building out a native desktop application for Windows, macOS, and Linux to give you a smooth, standalone experience without needing browser windows open.
+Choose the build you want.
 
-Core Milestones & Timeline 📈
-Local Chat History & Organization 💬 (Q1–Q2 2027): Sorting out proper local chat saving, search functions, and folder organization so you can look back at past threads without giving up your data privacy.
+## 🟢 Stable — K35.0
 
-Advanced Model Sliders 🎚️ (Q2 2027): Giving you granular control over generation parameters like Temperature, Top-P, and frequency penalties right from the UI.
+**Recommended for everyday use.**
 
-Deeper Material You Customization 🖌️ (Q2–Q3 2027): Dropping in custom hex seed color inputs, font adjustments, and deeper theme tweaking so you can actually style the app to match your exact setup.
+The Stable build is the most tested version and is intended to provide the most reliable MBYOK experience.
 
-Security & Encryption Upgrades 🛡️ (Q3 2027): Implementing local master-password locking and stronger encryption at rest for your saved keys so nobody else can poke around your setup if they hop on your machine.
+**Download:** `MBYOK-Stable-K35.0.html`
 
-Custom Provider Ecosystem 🔌 (Q3–Q4 2027): Expanding custom endpoints so it is dead simple to hook up local runners like Ollama or LM Studio alongside your cloud keys.
+* Most tested
+* Recommended for normal use
+* Fewer experimental changes
+* Focused on reliability
 
-A Quick Reality Check ⚠️
-Since this is an early beta release, things are moving fast 🏎️. Timelines shift, bugs pop up 🐛, and features get refactored while we code. If dates move around or something breaks, that is just part of building software early on. Thanks for checking out the project and riding along from day one 🛹!
+---
 
-Visit Site 🌐
-https://maqilpaul7-code.github.io/MBYOK-BETA-Q-and-K-Releases/
+## 🟡 Beta — Q2-K35.0
+
+**For users who want newer features and are willing to encounter bugs.**
+
+The Beta build contains newer changes that are still being tested before they are considered Stable.
+
+**Download:** `MBYOK-Beta-Q2-K35.0.html`
+
+* Newer features
+* Testing-focused
+* Bugs may be present
+* Features may change
+* Good for testers
+
+---
+
+## 🔴 Canary — X1-K35.0
+
+# ⚠️ EXTREMELY UNSTABLE
+
+**Canary is the experimental development build.**
+
+This build can contain unfinished or highly experimental changes.
+
+**Download:** `MBYOK-Canary-X1-K35.0.html`
+
+Expect:
+
+* 🐛 Bugs
+* Experimental features
+* Broken functionality
+* UI changes
+* Regressions
+* Features being redesigned or removed
+
+> **Canary is NOT recommended for everyday use. Use Stable if you want reliability.**
+
+---
+
+# 🗂️ How It Works
+
+MBYOK is **not a traditional hosted website**.
+
+Instead, each version is an individual HTML application.
+
+You simply:
+
+1. Choose Stable, Beta, or Canary.
+2. Download the `.html` file.
+3. Open the file with a modern browser.
+4. Use MBYOK.
+
+There is **no `index.html`** and no installation process required for the standalone browser build.
+
+Each version keeps its own proper release name.
+
+---
+
+# 🔐 Privacy
+
+MBYOK is designed around a client-side BYOK model.
+
+## Your API Keys
+
+Your API keys are intended to be handled locally rather than being sent to an MBYOK-owned backend.
+
+## Your Chats
+
+Chat data is designed to remain within your local browser environment unless information is sent to the AI provider you have configured to generate a response.
+
+## No MBYOK Middleman
+
+The basic concept is:
+
+**You → MBYOK Assistant → Your chosen AI provider**
+
+rather than:
+
+**You → MBYOK Server → AI Provider**
+
+Always review the privacy and data-handling policies of whichever AI provider you use.
+
+---
+
+# 🎨 Material You
+
+MBYOK Assistant uses a **Pixel-inspired Material 3** design direction.
+
+Current design goals include:
+
+* Material 3 components
+* Dynamic Material You theming
+* Light mode
+* Dark mode
+* Responsive layouts
+* Desktop navigation
+* Mobile navigation
+* Rounded Material surfaces
+* Pixel-inspired visual design
+
+---
+
+# 🛠️ Release Channels
+
+| Channel   | Purpose                  | Stability |
+| --------- | ------------------------ | --------- |
+| 🟢 Stable | Everyday use             | Highest   |
+| 🟡 Beta   | Feature testing          | Medium    |
+| 🔴 Canary | Experimental development | Lowest    |
+
+### 🟢 Stable
+
+The recommended build for everyday use.
+
+### 🟡 Beta
+
+For users who want to test newer features before they reach Stable.
+
+### 🔴 Canary
+
+The experimental development channel.
+
+**Things can break.**
+
+---
+
+# 🗺️ Roadmap
+
+## 🤖 Claude AI Support
+
+**Target: January 23, 2027**
+
+Planned functionality:
+
+* Anthropic integration
+* Native API key support
+* Model selection
+* Provider-aware controls
+
+## 💻 Standalone Desktop Application
+
+**Target: Late 2026–2027**
+
+Planned desktop applications for:
+
+* Windows
+* macOS
+* Linux
+
+## 💬 Local Chat History & Organization
+
+**Target: Q1–Q2 2027**
+
+Planned features:
+
+* Local chat saving
+* Chat search
+* Organization
+* Folders
+* Thread management
+
+## 🎚️ Advanced Model Controls
+
+**Target: Q2 2027**
+
+Planned controls:
+
+* Temperature
+* Top-P
+* Frequency penalties
+* Additional provider/model parameters
+
+## 🎨 Deeper Material You Customization
+
+**Target: Q2–Q3 2027**
+
+Potential customization:
+
+* Custom seed colors
+* Hex color input
+* Font customization
+* Deeper theme controls
+
+## 🛡️ Security & Encryption Upgrades
+
+**Target: Q3 2027**
+
+Planned improvements:
+
+* Local master-password protection
+* Stronger local encryption
+* Improved protection for stored credentials
+
+## 🔌 Custom Provider Ecosystem
+
+**Target: Q3–Q4 2027**
+
+Planned support for:
+
+* Ollama
+* LM Studio
+* Custom API endpoints
+* Additional local AI systems
+
+---
+
+# ⚠️ Important
+
+MBYOK is actively developed.
+
+Release dates and roadmap targets are **targets, not guarantees**.
+
+Features may be:
+
+* Delayed
+* Changed
+* Reworked
+* Removed
+* Replaced
+
+This is especially true for Beta and Canary builds.
+
+---
+
+# 🧪 Testing & Bug Reports
+
+When reporting a reproducible issue, include:
+
+* Build name
+* Browser
+* Operating system
+* What happened
+* What you expected to happen
+* Steps to reproduce
+
+### 🔒 Never include your API keys
+
+Do not post API keys, passwords, tokens, or other private credentials in GitHub issues, screenshots, logs, or bug reports.
+
+---
+
+# 📄 License
+
+MBYOK Assistant is distributed under the license included in this repository.
+
+See **`LICENSE`** for the applicable license terms.
+
+Additional notices can be found in **`NOTICE.md`**.
+
+---
+
+# © Copyright
+
+Copyright © 2026 Maqil Paul.
+
+MBYOK Assistant and its associated source code, documentation, branding, and release materials are maintained as part of this project.
+
+See the `LICENSE` file for the exact permissions and restrictions applicable to the software.
+
+---
+
+# 🚀 MBYOK Assistant
+
+**Your AI. Your keys. Your browser.**
+
+🟢 **Stable** — Reliability
+🟡 **Beta** — Testing
+🔴 **Canary** — Experimentation
+
+**Standalone HTML builds. No `index.html`. No ZIPs. Just download the build you want and launch it.**
