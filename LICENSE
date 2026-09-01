@@ -1,0 +1,208 @@
+# MIT License
+
+Copyright © 2026 Maqil Paul
+
+## MBYOK Assistant
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+---
+
+## 1. Standalone Builds
+
+This license applies to the MBYOK Assistant software and its standalone
+release builds, including Stable, Beta, and Canary versions, unless a
+specific file or component contains separate licensing terms.
+
+Examples of MBYOK Assistant releases include:
+
+* MBYOK-Stable-K35.0.html
+* MBYOK-Beta-Q2-K35.0.html
+* MBYOK-Canary-X1-K35.0.html
+
+Different builds may contain different features, experimental functionality,
+or changes in stability.
+
+---
+
+## 2. Modification and Redistribution
+
+You may:
+
+* Use the Software for personal or commercial purposes.
+* Copy the Software.
+* Modify the Software.
+* Create derivative works.
+* Distribute original or modified copies.
+* Include the Software in another project.
+* Publish modified versions.
+
+You must retain this copyright notice and the applicable license notice when
+redistributing the Software or substantial portions of it.
+
+---
+
+## 3. Release Identification
+
+If you modify an official MBYOK release and redistribute your modified version,
+you should clearly indicate that the modified version is not an official
+release from Maqil Paul.
+
+Do not represent a modified build as an official Stable, Beta, or Canary
+release unless it has actually been released by the project maintainer.
+
+---
+
+## 4. Branding and Trademarks
+
+The MIT license applies to the Software and does not automatically grant
+permission to use the project's branding.
+
+The name:
+
+**MBYOK Assistant**
+
+and associated project logos, artwork, visual branding, release names,
+badges, and other identifying materials may be protected separately from
+the source code.
+
+Permission to modify or redistribute the Software does not automatically
+grant permission to imply endorsement, sponsorship, or official affiliation
+with the original project or maintainer.
+
+---
+
+## 5. Third-Party Software
+
+MBYOK Assistant may use third-party libraries, APIs, services, fonts,
+icons, or other components.
+
+Third-party components remain subject to their respective licenses and
+terms.
+
+Nothing in this license overrides or replaces the license of a third-party
+component.
+
+---
+
+## 6. API Providers and API Keys
+
+MBYOK Assistant is a client-side BYOK application.
+
+Users are responsible for:
+
+* Their own API keys.
+* Their configured AI providers.
+* Their provider accounts.
+* Their provider usage.
+* Any costs charged by an AI provider.
+* Following the terms and policies of the provider they use.
+
+The MBYOK project and maintainer are not responsible for charges, account
+restrictions, provider outages, or other consequences resulting from a
+user's configuration or use of a third-party AI provider.
+
+**Never publish API keys, access tokens, passwords, or other credentials
+inside the repository.**
+
+---
+
+## 7. Beta and Canary Releases
+
+Beta and Canary versions may contain unfinished, experimental, or unstable
+functionality.
+
+The Canary channel is specifically intended for experimental testing and
+may contain significant bugs or regressions.
+
+Use of Beta or Canary software is at the user's own risk.
+
+---
+
+## 8. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## 9. No Guarantee of Availability
+
+The maintainer does not guarantee that:
+
+* A particular release will remain available.
+* A feature will remain unchanged.
+* A roadmap feature will be completed.
+* A third-party API will remain compatible.
+* A provider will remain available.
+* A Beta or Canary build will function correctly.
+
+Development plans and release targets may change at any time.
+
+---
+
+## 10. Security
+
+Security vulnerabilities should not be publicly disclosed with sensitive
+information or credentials.
+
+Please follow the project's security reporting instructions in
+**SECURITY.md**.
+
+Never include API keys, passwords, tokens, private information, or other
+credentials in an issue or security report.
+
+---
+
+## 11. Copyright
+
+Copyright © 2026 Maqil Paul.
+
+All rights not expressly granted under this license are reserved by the
+copyright holder, subject to the rights granted by this license and any
+applicable third-party licenses.
+
+---
+
+## License Summary
+
+You are allowed to:
+
+✅ Use MBYOK Assistant
+✅ Copy it
+✅ Modify it
+✅ Redistribute it
+✅ Create derivative works
+✅ Use it commercially
+
+You must:
+
+✅ Keep the applicable copyright notice
+✅ Keep the license notice
+✅ Clearly identify modified versions as modified
+
+You may not:
+
+❌ Claim an unofficial modified build is an official MBYOK release
+❌ Imply endorsement by the original maintainer without permission
+❌ Treat third-party components as being owned by this project
+
+---
+
+**Copyright © 2026 Maqil Paul — MBYOK Assistant**
+
+**MBYOK Assistant — Your AI. Your keys. Your browser.**
